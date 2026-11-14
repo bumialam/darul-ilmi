@@ -1,0 +1,30 @@
+/* 
+   FILE INI UNTUK CUSTOM CSS ANDA.
+   JANGAN MENGEDIT style.css KARENA ITU FILE GENERATED/BUILD.
+*/
+
+﻿body{font-family:'Inter',sans-serif} 
+html{scroll-padding-top:70px} 
+a:focus-visible,button:focus-visible{outline:3px solid #f28c28;outline-offset:2px} 
+
+.hero-bg{background:radial-gradient(ellipse 60% 70% at 78% 45%,rgba(255,255,255,.75),rgba(255,255,255,0) 70%),radial-gradient(ellipse 40% 50% at 8% 0%,rgba(255,255,255,.9),rgba(255,255,255,0) 70%),linear-gradient(100deg,#f0fbfb 0%,#d5f0f2 40%,#b5e3e7 72%,#94d4da 100%)} 
+.hero-pattern{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='30'%3E%3Cg fill='none' stroke='white' stroke-opacity='.75' stroke-width='2'%3E%3Ccircle cx='0' cy='30' r='30'/%3E%3Ccircle cx='60' cy='30' r='30'/%3E%3Ccircle cx='30' cy='0' r='30'/%3E%3C/g%3E%3C/svg%3E");background-size:60px 30px;-webkit-mask-image:radial-gradient(ellipse 70% 80% at 92% 18%,#000 0%,#000 30%,transparent 75%);mask-image:radial-gradient(ellipse 70% 80% at 92% 18%,#000 0%,#000 30%,transparent 75%)} 
+.hero-dots{background-image:radial-gradient(#0e7c86 1.6px,transparent 1.7px);background-size:16px 16px} 
+.pat{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='60' height='30'%3E%3Cg fill='none' stroke='white' stroke-width='2'%3E%3Ccircle cx='0' cy='30' r='30'/%3E%3Ccircle cx='60' cy='30' r='30'/%3E%3Ccircle cx='30' cy='0' r='30'/%3E%3C/g%3E%3C/svg%3E");background-size:60px 30px} 
+.sc{scrollbar-width:none}.sc::-webkit-scrollbar{display:none} 
+
+@media (prefers-reduced-motion:no-preference){ 
+    html{scroll-behavior:smooth} 
+    @keyframes enterLeft{from{opacity:0;translate:-60px 0}to{opacity:1;translate:0 0}} 
+    @keyframes enterUp{from{opacity:0;translate:0 50px}to{opacity:1;translate:0 0}} 
+    @keyframes enterPop{from{opacity:0;scale:.7}to{opacity:1;scale:1}} 
+    @keyframes floaty{0%,100%{translate:0 0}50%{translate:0 -9px}} 
+    @keyframes twinkle{0%,100%{opacity:.35;scale:.8}50%{opacity:1;scale:1.15}} 
+    .enter-left{animation:enterLeft .7s cubic-bezier(.2,.8,.2,1) both} 
+    .enter-up{animation:enterUp .9s cubic-bezier(.2,.8,.2,1) both} 
+    .enter-pop{animation:enterPop .6s cubic-bezier(.3,1.4,.5,1) both} 
+    .float{animation:floaty 4s ease-in-out infinite} 
+    .twinkle{animation:twinkle 2.8s ease-in-out infinite} 
+    .js .reveal{opacity:0;translate:0 30px;transition:opacity .7s ease,translate .7s cubic-bezier(.2,.8,.2,1),transform .3s ease} 
+    .js .reveal.show{opacity:1;translate:0 0}
+}
